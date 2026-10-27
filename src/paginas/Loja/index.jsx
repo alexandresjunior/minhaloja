@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import './estilos.css'
 import ProdutoCard from '../../componentes/ProdutoCard'
 
-const API_URL = 'http://localhost:3000/products'
+const API_URL = 'http://10.0.1.254:3000/products'
 
 function Loja({ itensCarrinho, onComprar }) {
   const [produtos, setProdutos] = useState([])
